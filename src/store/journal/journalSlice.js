@@ -55,7 +55,7 @@ export const journalSlice = createSlice({
                 
             });
 
-            state.messageSaved = `${ action.payload.title }, actualizada correctamente`;
+            state.messageSaved = `${ action.payload.title } Actualizada correctamente`;
 
         },
         setPhotosToActiveNote: (state, action) =>{
